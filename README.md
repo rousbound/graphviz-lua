@@ -19,7 +19,8 @@ local gv = require"graphviz"
 -- Render dot graph to bytes of determined format
 -- @param string dot graph
 -- @param string output format
--- @return string bytes
+-- @return string|nil bytes
+-- @return string|nil error mensage|n
 local bytes, err = gv.render("digraph G{A -> B}", "png")
 ```
 
