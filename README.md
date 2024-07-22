@@ -2,7 +2,7 @@
 
 
 Lua binding to [graphviz](https://gitlab.com/graphviz/graphviz),
-a open source graph visualization software.
+an open source graph visualization software.
 
 ## Installation
 
